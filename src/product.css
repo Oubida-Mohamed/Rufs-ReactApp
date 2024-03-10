@@ -1,0 +1,27 @@
+.card_produit{
+    @apply bg-white shadow-2xl hover:scale-105 hover:shadow-2xl duration-500 mx-1 relative;
+}
+.image_produit{
+    @apply w-[100%] h-auto;
+}
+.coeur_panier{
+    @apply  ml-auto  flex ;
+}
+.info_produit{
+    @apply px-4 py-3 w-[100%];
+}
+.panier{
+    @apply w-[27px] h-[27px];
+}
+.coeur{
+    @apply w-[35px] h-[35px] cursor-pointer absolute top-0 right-3;
+}
+.prix_precedent{
+    @apply text-sm text-gray-600 cursor-auto ml-2 ;
+}
+.prix_solde{
+    @apply text-lg font-semibold text-black cursor-auto my-3 ;
+}
+.nom_produit{
+    @apply text-lg font-bold text-black truncate block capitalize ;
+}
